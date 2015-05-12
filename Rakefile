@@ -54,6 +54,7 @@ Motion::Project::App.setup do |app|
   #
   app.pods do
     pod 'JMImageCache'
+    pod 'SDWebImage'
   #   pod 'JGProgressHUD'
   #   pod 'SVProgressHUD'
   #   pod "FontasticIcons"

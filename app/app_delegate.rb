@@ -2,6 +2,7 @@ class AppDelegate < PM::Delegate
   status_bar true, animation: :fade
 
   def on_load(app, options)
+    SDWebImageManager.sharedManager.imageCache.clearMemory
     open HomeScreen.new(nav_bar: true)
   end
 

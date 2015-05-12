@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "rake"
 gem "motion-cocoapods"
 gem "redpotion"
+gem "ProMotion", github: 'clearsightstudio/promotion', branch: 'sdwebimage'
 # gem "cdq" # Core Data
 # gem "afmotion" # Networking
 

@@ -3,7 +3,6 @@ class HomeScreen < PM::TableScreen
   stylesheet HomeScreenStylesheet
 
   def on_load
-    JMImageCache.sharedCache.removeAllObjects
   end
 
   def on_appear
@@ -11,7 +10,7 @@ class HomeScreen < PM::TableScreen
   end
 
   def table_data
-    [{cells:UIFaces.all.map{ |f| cell(f) }}]
+    [{cells:UIFaces.all.sort.map{ |f| cell(f) }}]
   end
 
   def cell(face)

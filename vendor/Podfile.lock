@@ -1,10 +1,15 @@
 PODS:
   - JMImageCache (0.4.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
 
 DEPENDENCIES:
   - JMImageCache
+  - SDWebImage
 
 SPEC CHECKSUMS:
   JMImageCache: fac25eb168a25b29ac130fee6a6b17ea463c1d86
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
 COCOAPODS: 0.37.1
